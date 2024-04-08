@@ -1,0 +1,402 @@
+/* Header */
+
+.bg_img {
+    width: 100%;
+    height: 765px;
+}
+
+.maincard {
+    height: 449px;
+    width: 714px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -575px;
+    padding: 0;
+}
+
+.Sub_Heading {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.05px;
+    margin-bottom: 32px;
+}
+
+.Main_Heading {
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 100px;
+    letter-spacing: 6px;
+    margin-bottom: 32px;
+}
+
+.Body {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.44px;
+    margin-bottom: 32px;
+}
+
+.bt {
+    height: 55px;
+    width: 260px;
+    border-radius: 100px;
+    padding: 16px, 80px, 16px, 80px;
+    background-color: #7920C2;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.bt:hover {
+    background: linear-gradient(90deg, rgba(121, 32, 194, 1), rgba(109, 27, 176, 1));
+    box-shadow: 7px 11px 12px 0px rgba(121, 32, 194, 0.09),15px 24px 17px 0px rgba(121, 32, 194, 0.09),
+    26px 42px 20px 0px rgba(121, 32, 194, 0.01), 41px 66px 22px 0px rgba(121, 32, 194, 0),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.bt_2 {
+    height: 55px;
+    width: 260px;
+    border-radius: 100px;
+    padding: 16px, 80px, 16px, 80px;
+    background-color: #F2994A;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.bt_2:hover {
+    background: linear-gradient(90deg, rgba(242, 153, 74, 1), rgba(206, 118, 41, 1));
+    box-shadow: 7px 11px 12px 0px rgba(242, 153, 74, 0.09),15px 24px 17px 0px rgba(242, 153, 74, 0.09),
+    26px 42px 20px 0px rgba(242, 153, 74, 0.01), 41px 66px 22px 0px rgba(242, 153, 74, 0),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* Destinations */
+
+.space {
+    color: rgb(9, 0, 17, 1);
+    margin-top: 120px;
+}
+
+.box2 {
+    margin-top: 100px;
+    margin-bottom: 140px;
+}
+
+.Sub_Heading_2 {
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 61.6px;
+    margin-bottom: 26px;
+}
+
+.Body_2 {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29.05px;
+    margin-bottom: 50px;
+}
+
+.planet_1 {
+    height: 383px;
+    background: linear-gradient(180deg, rgb(9, 0, 17, 1), rgba(9, 0, 17, 1), rgba(24, 12, 96, 1), rgba(24, 12, 96, 1));
+    border-radius: 150px 150px 30px 30px;
+    text-align: left;
+    padding-left: 30px;
+    color: white;
+}
+
+.planet_1:hover {
+    background: linear-gradient(180deg, rgb(9, 0, 17, 1), rgba(9, 0, 17, 1), rgba(151, 71, 255, 1), rgba(151, 71, 255, 1));
+    box-shadow: 7px 11px 12px 0px rgba(121, 32, 194, 0.01), 15px 24px 17px 0px rgba(121, 32, 194, 0.01), 
+    26px 42px 20px 0px rgba(121, 32, 194, 0.01), 21px 66px 22px 0px rgba(24, 5, 39, 0), 
+    0px 4px 20px 0px rgba(9, 0, 17, 1);
+}
+
+.p1 {
+    width: 200px;
+    height: 200px;
+}
+
+.p_name {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 26px;
+}
+
+.underline {
+    width: 23px;
+    height: 4px;
+    background: #F2994A;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    margin-top: 10px;
+}
+
+.p_info {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.planet_2 {
+    height: 383px;
+    background: linear-gradient(180deg, rgb(9, 0, 17, 1), rgba(9, 0, 17, 1), rgba(24, 12, 96, 1), rgba(24, 12, 96, 1));
+    border-radius: 150px 150px 30px 30px;
+    text-align: left;
+    padding-left: 30px;
+    color: white;
+}
+
+.planet_2:hover {
+    background: linear-gradient(180deg, rgb(9, 0, 17, 1), rgba(9, 0, 17, 1), rgba(151, 71, 255, 1), rgba(151, 71, 255, 1));
+    box-shadow: 7px 11px 12px 0px rgba(121, 32, 194, 0.01), 15px 24px 17px 0px rgba(121, 32, 194, 0.01), 
+    26px 42px 20px 0px rgba(121, 32, 194, 0.01), 21px 66px 22px 0px rgba(24, 5, 39, 0), 
+    0px 4px 20px 0px rgba(9, 0, 17, 1);
+}
+
+.p2 {
+    width: 200px;
+    height: 200px;
+}
+
+.planet_3 {
+    height: 383px;
+    background: linear-gradient(180deg, rgb(9, 0, 17, 1), rgba(9, 0, 17, 1), rgba(24, 12, 96, 1), rgba(24, 12, 96, 1));
+    border-radius: 150px 150px 30px 30px;
+    text-align: left;
+    padding-left: 30px;
+    color: white;
+}
+
+.planet_3:hover {
+    background: linear-gradient(180deg, rgb(9, 0, 17, 1), rgba(9, 0, 17, 1), rgba(151, 71, 255, 1), rgba(151, 71, 255, 1));
+    box-shadow: 7px 11px 12px 0px rgba(121, 32, 194, 0.01), 15px 24px 17px 0px rgba(121, 32, 194, 0.01), 
+    26px 42px 20px 0px rgba(121, 32, 194, 0.01), 21px 66px 22px 0px rgba(24, 5, 39, 0), 
+    0px 4px 20px 0px rgba(9, 0, 17, 1);
+}
+
+.p3 {
+    width: 200px;
+    height: 200px;
+}
+
+/* App */
+
+.bg_img2 {
+    width: 100%;
+    margin-top: 100px;
+    background-image: url("../Images/mobile_app_background.jpg");
+    background-repeat: no-repeat;
+}
+
+.maincard2 {
+    padding-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Sub_Heading_3 {
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 61.6px;
+    margin-bottom: 27px;
+}
+
+.Body_3 {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29.05px;
+    margin-bottom: 40px;
+}
+
+.bg_img3 {
+    width: 67%;
+    height: 10%;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    height: 463px;
+    margin-top: 16px;
+    padding-top: 64px;
+}
+
+.maincard3 {
+    height: 58%;
+    width: 68%;
+    padding-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #7920C2;
+    border-radius: 30px;
+    margin-top: -520px;
+}
+
+.Sub_Heading_4 {
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35.2px;
+    margin-bottom: 27px;
+}
+
+.bt_3 {
+    height: 55px;
+    width: 184px;
+    border-radius: 100px;
+    padding: 16px, 80px, 16px, 80px;
+    background-color: #F2994A;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.bt_3:hover {
+    background: linear-gradient(90deg, rgba(242, 153, 74, 1), rgba(206, 118, 41, 1));
+    box-shadow: 7px 11px 12px 0px rgba(242, 153, 74, 0.09),15px 24px 17px 0px rgba(242, 153, 74, 0.09),
+    26px 42px 20px 0px rgba(242, 153, 74, 0.01), 41px 66px 22px 0px rgba(242, 153, 74, 0),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.maincard4 {
+    width: 100%;
+    height: 100%;
+    background: #11052D;
+    padding-left: 122px;
+    padding-right: 122px;
+    padding-top: 185px;
+    text-align: left;
+}
+
+.mainbox {
+    width: 100%;
+    height: 130px;
+}
+
+
+.logo {
+    height: 66px;
+    width: 66px;
+}
+
+.copyright {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 15px;
+    color: white;
+}
+
+.footerbox {
+    margin-top: -110px;
+    margin-left: 77%;
+}
+
+.LH {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.L {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.footerbox2 {
+    width: 110px;
+    margin-top: -127px;
+    margin-left: 92%;
+}
+
+.FLU {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.icons {
+    height: 37px;
+    width: 37px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.bg_img4 {
+    width: 133px;
+    height: 184px;
+    margin-top: 55px;
+    margin-left: -1100px;
+}
+
+.TN {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    background-color: #7920C2;
+    border-radius: 50px;
+    height: 51px;
+    width: 311px;
+    border: 2px solid white;
+    padding: 16px 20px 16px 20px;
+    margin-right: 20px;
+}
+
+.TE{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    background-color: #7920C2;
+    border-radius: 50px;
+    height: 51px;
+    width: 311px;
+    border: 2px solid white;
+    padding: 16px 20px 16px 20px;
+    margin-right: 20px;
+}
+
+::placeholder {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #180C60;
+}
